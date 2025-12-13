@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boostly Apps - Boost Your Shopify Store with High-Performance Apps</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cdefs%3E%3ClinearGradient id='grad' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%234A9EFF;stop-opacity:1' /%3E%3Cstop offset='100%25' style='stop-color:%232E1A47;stop-opacity:1' /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='100' height='100' rx='20' fill='url(%23grad)'/%3E%3Ctext x='50' y='70' font-family='Arial, sans-serif' font-size='60' font-weight='bold' fill='white' text-anchor='middle'%3EB%3C/text%3E%3C/svg%3E">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="dark-mode">
+    <!-- Global Background Orbs - Single instance for all sections -->
+    <div class="global-background-orbs">
+        <div class="gradient-orb orb-1"></div>
+        <div class="gradient-orb orb-2"></div>
+        <div class="gradient-orb orb-3"></div>
+    </div>
+    <div class="geometric-overlay"></div>
+    <div class="geometric-shapes"></div>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <div class="logo-icon">
+                        <span class="logo-letter">B</span>
+                    </div>
+                    <span class="logo-text">
+                        <span class="logo-text-boostly">Boostly</span><span class="logo-text-apps">Apps</span>
+                    </span>
+                </div>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#apps">Apps</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                </ul>
+                <div class="nav-actions">
+                    <button class="btn-explore-apps">Explore Apps</button>
+                    <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                        <i class="fas fa-moon" id="themeIcon"></i>
+                    </button>
+                    <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 3D Scroll Background Element - Three.js Canvas -->
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+            <div class="gradient-orb orb-3"></div>
+        </div>
+        <div class="container">
+                <div class="hero-content">
+                <!-- Badge -->
+                <div class="hero-badge">
+                    <i class="fas fa-sparkles"></i>
+                    <span>Trusted by 500+ Shopify Merchants</span>
+                </div>
+                <h1 class="hero-title">
+                    <span class="hero-title-bg"></span>
+                    Boost Your Shopify Store with <span class="gradient-text">High-Performance Apps</span>
+                </h1>
+                <p class="hero-subtitle">
+                    We craft high-performance Shopify applications that supercharge your e-commerce operations. From custom integrations to scalable solutions, we've got you covered.
+                </p>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">150+</div>
+                        <div class="stat-label">Apps Delivered</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">99.9%</div>
+                        <div class="stat-label">Uptime Guarantee</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">24/7</div>
+                        <div class="stat-label">Expert Support</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">What We Do</span>
+                <h2 class="section-title">
+                    Help Shopify Stores <span class="gradient-text">Double Their Sales</span>
+                </h2>
+                <p class="section-description">
+                    Our powerful apps transform your store into a conversion machine, turning visitors into loyal customers and boosting your bottom line.
+                </p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3 class="service-title">Double Your Sales</h3>
+                    <p class="service-description">
+                        Our apps are designed to boost conversions and help Shopify stores achieve 2x revenue growth.
+                    </p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <h3 class="service-title">Reduce Cart Abandonment</h3>
+                    <p class="service-description">
+                        Smart checkout optimizations that recover lost sales and turn browsers into buyers.
+                    </p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-bullseye"></i>
+                    </div>
+                    <h3 class="service-title">Increase Average Order Value</h3>
+                    <p class="service-description">
+                        Strategic upsell and cross-sell tools that encourage customers to add more to their cart.
+                    </p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3 class="service-title">Faster Store Performance</h3>
+                    <p class="service-description">
+                        Lightweight, optimized apps that enhance your store without slowing it down.
+                    </p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-bar"></i>
+                    </div>
+                    <h3 class="service-title">Data-Driven Insights</h3>
+                    <p class="service-description">
+                        Understand your customers better with analytics that reveal what drives purchases.
+                    </p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3 class="service-title">Better Customer Experience</h3>
+                    <p class="service-description">
+                        Seamless shopping journeys that keep customers coming back for more.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section id="benefits" class="benefits">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Why Choose Us</span>
+                <h2 class="section-title">
+                    The <span class="gradient-text">Boostly Advantage</span>
+                </h2>
+                <p class="section-description">
+                    We're not just developers – we're your strategic partners in e-commerce success. Here's what sets us apart.
+                </p>
+            </div>
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3 class="benefit-title">Lightning Fast Delivery</h3>
+                    <p class="benefit-description">
+                        We understand time is money. Our streamlined process ensures your app goes live faster without compromising quality.
+                    </p>
+                    <div class="benefit-stat">
+                        <span class="stat-value">2-4</span><span class="stat-label"> Weeks Average Delivery</span>
+                    </div>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <h3 class="benefit-title">Shopify Certified Experts</h3>
+                    <p class="benefit-description">
+                        Our team holds official Shopify certifications and stays updated with the latest platform changes and best practices.
+                    </p>
+                    <div class="benefit-stat">
+                        <span class="stat-value">100%</span>
+                        <span class="stat-label">Certified Team</span>
+                    </div>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3 class="benefit-title">Round-the-Clock Support</h3>
+                    <p class="benefit-description">
+                        Issues don't wait for business hours. Neither do we. Get help whenever you need it with our dedicated support team.
+                    </p>
+                    <div class="benefit-stat">
+                        <span class="stat-value">24/7</span>
+                        <span class="stat-label">Availability</span>
+                    </div>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3 class="benefit-title">Scalable Architecture</h3>
+                    <p class="benefit-description">
+                        Built to grow with you. Our apps handle millions of requests while maintaining peak performance.
+                    </p>
+                    <div class="benefit-stat">
+                        <span class="stat-value">10M+</span>
+                        <span class="stat-label">Requests Handled</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="apps" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Featured Apps</span>
+                <h2 class="section-title">
+                    Apps That <span class="gradient-text">Drive Results</span>
+                </h2>
+                <p class="section-description">
+                    Start your 14-day free trial. Join over 90,000+ merchants already growing with Boostly Apps ®.
+                </p>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-card">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder">
+                            <i class="fas fa-boxes"></i>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3 class="portfolio-title">Inventory Sync Pro</h3>
+                        <div class="portfolio-rating">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <span class="rating-value">4.9</span>
+                            <span class="rating-count">(2,340 reviews)</span>
+                        </div>
+                        <p class="portfolio-description">
+                            Real-time inventory synchronization across multiple sales channels and warehouses.
+                        </p>
+                        <div class="portfolio-features">
+                            <span class="feature-tag">Multi-channel sync</span>
+                            <span class="feature-tag">Low stock alerts</span>
+                            <span class="feature-tag">Bulk updates</span>
+                        </div>
+                        <button class="btn-install">Install</button>
+                    </div>
+                </div>
+                <div class="portfolio-card">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder">
+                            <i class="fas fa-credit-card"></i>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3 class="portfolio-title">Smart Checkout Plus</h3>
+                        <div class="portfolio-rating">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <span class="rating-value">4.8</span>
+                            <span class="rating-count">(1,890 reviews)</span>
+                        </div>
+                        <p class="portfolio-description">
+                            Conversion-optimized checkout with one-click upsells and custom fields.
+                        </p>
+                        <div class="portfolio-features">
+                            <span class="feature-tag">One-click upsells</span>
+                            <span class="feature-tag">Custom fields</span>
+                            <span class="feature-tag">A/B testing</span>
+                        </div>
+                        <button class="btn-install">Install</button>
+                    </div>
+                </div>
+                <div class="portfolio-card">
+                    <div class="portfolio-image">
+                        <div class="portfolio-placeholder">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <h3 class="portfolio-title">Analytics Dashboard</h3>
+                        <div class="portfolio-rating">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <span class="rating-value">5.0</span>
+                            <span class="rating-count">(3,200 reviews)</span>
+                        </div>
+                        <p class="portfolio-description">
+                            Comprehensive analytics with AI-powered insights and predictive forecasting.
+                        </p>
+                        <div class="portfolio-features">
+                            <span class="feature-tag">AI insights</span>
+                            <span class="feature-tag">Forecasting</span>
+                            <span class="feature-tag">Custom reports</span>
+                        </div>
+                        <button class="btn-install">Install</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge">Testimonials</span>
+                <h2 class="section-title">
+                    Trusted by <span class="gradient-text">Leading Brands</span>
+                </h2>
+                <p class="section-description">
+                    Don't just take our word for it. Here's what our clients have to say about working with Boostly Apps.
+                </p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-quote">
+                        <i class="fas fa-quote-left"></i>
+                    </div>
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        "Boostly Apps transformed our checkout process. We saw a 35% increase in conversions within the first month. Their team is responsive and truly understands e-commerce."
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <span>SC</span>
+                        </div>
+                        <div class="author-info">
+                            <div class="author-name">Sarah Chen</div>
+                            <div class="author-role">CEO, StyleHouse</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-quote">
+                        <i class="fas fa-quote-left"></i>
+                    </div>
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        "The inventory sync app they built saved us countless hours of manual work. It's reliable, fast, and the support team is always there when we need them."
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <span>MJ</span>
+                        </div>
+                        <div class="author-info">
+                            <div class="author-name">Marcus Johnson</div>
+                            <div class="author-role">Operations Director, TechGear Co</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-quote">
+                        <i class="fas fa-quote-left"></i>
+                    </div>
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        "Professional, efficient, and genuinely invested in our success. They delivered exactly what we needed on time and on budget. Highly recommend!"
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <span>ER</span>
+                        </div>
+                        <div class="author-info">
+                            <div class="author-name">Elena Rodriguez</div>
+                            <div class="author-role">Founder, Artisan Goods</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="client-logos-section">
+                <p class="client-logos-text">Trusted by innovative brands worldwide</p>
+                <div class="client-logos">
+                    <div class="logo-item">TechGear</div>
+                    <div class="logo-item">StyleHouse</div>
+                    <div class="logo-item">Artisan</div>
+                    <div class="logo-item">ModernShop</div>
+                    <div class="logo-item">EcoStore</div>
+                    <div class="logo-item">LuxBrand</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <div class="logo-icon">
+                            <span class="logo-letter">B</span>
+                        </div>
+                        <h3 class="footer-title">
+                            <span class="logo-text-boostly">Boostly</span><span class="logo-text-apps">Apps</span>
+                        </h3>
+                    </div>
+                    <p class="footer-description">
+                        Building powerful Shopify applications that drive growth and transform e-commerce businesses.
+                    </p>
+                    <div class="footer-social">
+                        <a href="#" class="social-link" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-heading">Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="#services">App Development</a></li>
+                        <li><a href="#services">App Customization</a></li>
+                        <li><a href="#services">UI/UX Design</a></li>
+                        <li><a href="#services">Integrations</a></li>
+                        <li><a href="#services">Support & Maintenance</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-heading">Company</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">About Us</a></li>
+                        <li><a href="#apps">Apps</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 class="footer-heading">Legal</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Cookie Policy</a></li>
+                        <li><a href="#">Refund Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Boostly Apps. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
