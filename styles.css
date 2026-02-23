@@ -1917,3 +1917,64 @@ section {
     }
 }
 
+/* ============================================
+   Legal Pages (Privacy Policy / Terms)
+   ============================================ */
+.legal-page {
+    position: relative;
+    z-index: 1;
+    padding: 120px 0 80px; /* space for fixed navbar */
+}
+
+.legal-header {
+    margin-bottom: 28px;
+}
+
+.legal-card {
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 20px;
+    padding: 28px;
+    box-shadow: 0 20px 50px var(--shadow);
+    backdrop-filter: blur(16px);
+}
+
+.legal-card h2 {
+    margin-top: 22px;
+    margin-bottom: 10px;
+    font-size: 1.15rem;
+    color: var(--text-primary);
+}
+
+.legal-card p {
+    color: var(--text-secondary);
+    margin: 10px 0;
+}
+
+.legal-card ul {
+    margin: 10px 0 10px 18px;
+    color: var(--text-secondary);
+}
+
+.legal-card li {
+    margin: 6px 0;
+}
+
+.legal-card a {
+    color: #4A9EFF;
+    text-decoration: none;
+}
+
+.legal-card a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .legal-page {
+        padding: 110px 0 60px;
+    }
+    .legal-card {
+        padding: 20px;
+        border-radius: 16px;
+    }
+}
