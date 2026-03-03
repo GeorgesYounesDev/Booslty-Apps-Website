@@ -1,86 +1,197 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Pricing | Growify Apps</title>
-  <meta name="description" content="Simple and transparent pricing for Growify apps.">
-  <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Pricing | Growify Apps</title>
+    <meta name="description" content="Simple and transparent pricing for Growify apps." />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css" />
 </head>
 
-<body>
-  <header class="navbar">
-    <div class="container">
-      <a href="/" class="logo">Growify Apps</a>
-      <nav>
-        <a href="/">Home</a>
-        <a href="/pricing.html" class="active">Pricing</a>
-        <a href="/privacy-policy.html">Privacy</a>
-        <a href="/terms-of-service.html">Terms</a>
-      </nav>
+<body class="dark-mode">
+
+    <!-- Global Background Orbs -->
+    <div class="global-background-orbs">
+        <div class="gradient-orb orb-1"></div>
+        <div class="gradient-orb orb-2"></div>
+        <div class="gradient-orb orb-3"></div>
     </div>
-  </header>
+    <div class="geometric-overlay"></div>
+    <div class="geometric-shapes"></div>
 
-  <section class="hero">
-    <div class="container">
-      <h1>Simple, Transparent Pricing</h1>
-      <p>Clear pricing designed to fit stores of all sizes.</p>
-    </div>
-  </section>
+    <!-- Navigation (MATCHES index.html) -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a class="logo" href="index.html#home" style="text-decoration:none;">
+                    <div class="logo-icon">
+                        <span class="logo-letter">G</span>
+                    </div>
+                    <span class="logo-text">
+            <span class="logo-text-boostly">Growify</span><span class="logo-text-apps">Apps</span>
+                    </span>
+                </a>
 
-  <section class="pricing-section">
-    <div class="container pricing-grid">
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="index.html#home">Home</a></li>
+                    <li><a href="index.html#services">Services</a></li>
+                    <li><a href="index.html#apps">Apps</a></li>
+                    <li><a href="index.html#testimonials">Testimonials</a></li>
+                    <li><a href="pricing.html" aria-current="page">Pricing</a></li>
+                </ul>
 
-      <!-- Development Stores -->
-      <div class="pricing-card">
-        <h2>Development Stores</h2>
-        <p class="price">$0</p>
-        <p class="billing">Free for Shopify development stores</p>
-        <ul>
-          <li>Full feature access</li>
-          <li>Unlimited configuration</li>
-          <li>Testing & development use</li>
-        </ul>
-      </div>
+                <div class="nav-actions">
+                    <a href="index.html#apps" class="btn-explore-apps">Explore Apps</a>
+                    <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                        <i class="fas fa-moon" id="themeIcon"></i>
+                    </button>
+                    <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Open menu">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
 
-      <!-- Basic Plan -->
-      <div class="pricing-card featured">
-        <h2>Basic Plan</h2>
-        <p class="price">$9.99</p>
-        <p class="billing">Per month</p>
-        <p class="trial">14-day free trial</p>
-        <ul>
-          <li>Cart upsell recommendations</li>
-          <li>Manual product selection</li>
-          <li>Custom section title</li>
-          <li>Theme color customization</li>
-          <li>Theme app extension integration</li>
-        </ul>
-      </div>
+    <!-- Page Hero (reuses hero styling) -->
+    <section class="hero" id="home">
+        <div class="hero-background">
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+            <div class="gradient-orb orb-3"></div>
+        </div>
 
-    </div>
-  </section>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <i class="fas fa-tag"></i>
+                    <span>Pricing</span>
+                </div>
 
-  <section class="faq">
-    <div class="container">
-      <h2>Frequently Asked Questions</h2>
+                <h1 class="hero-title">
+          Simple, Transparent Pricing
+        </h1>
 
-      <h3>Is there a free plan?</h3>
-      <p>Yes. All Shopify development stores can use Growify apps for free.</p>
+                <p class="hero-subtitle">
+                    Clear plans for development stores and production merchants.
+                </p>
+            </div>
+        </div>
+    </section>
 
-      <h3>Is billing handled securely?</h3>
-      <p>Yes. All billing is processed securely through Shopify's official billing system.</p>
+    <!-- Pricing Section (uses your pricing CSS) -->
+    <section class="services">
+        <div class="container">
 
-      <h3>Can I cancel anytime?</h3>
-      <p>Yes. You can uninstall the app at any time to stop billing.</p>
-    </div>
-  </section>
+            <div class="section-header">
+                <span class="section-badge">Plans</span>
+                <h2 class="section-title">Choose the plan that fits</h2>
+                <p class="section-subtitle">
+                    Development stores are free. Production stores use one simple monthly plan.
+                </p>
+            </div>
 
-  <footer class="footer">
-    <div class="container">
-      <p>© 2026 Growify Apps. All rights reserved.</p>
-    </div>
-  </footer>
+            <div class="pricing-grid">
 
+                <!-- Dev Stores -->
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <div class="pricing-tier">Development Stores</div>
+                        <div class="pricing-price">
+                            <div class="price-amount">$0</div>
+                            <div class="price-period">Free for Shopify dev stores</div>
+                        </div>
+                        <div class="pricing-description">
+                            Use all features for testing and development.
+                        </div>
+                    </div>
+
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> Full feature access</li>
+                        <li><i class="fas fa-check"></i> Unlimited configuration</li>
+                        <li><i class="fas fa-check"></i> Development & QA usage</li>
+                    </ul>
+                </div>
+
+                <!-- Basic -->
+                <div class="pricing-card featured">
+                    <div class="pricing-badge">Most Popular</div>
+
+                    <div class="pricing-header">
+                        <div class="pricing-tier">Basic</div>
+                        <div class="pricing-price">
+                            <div class="price-amount">$9.99</div>
+                            <div class="price-period">per month</div>
+                        </div>
+                        <div class="pricing-description">
+                            Includes a 14-day free trial. Billing is handled through Shopify.
+                        </div>
+                    </div>
+
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> Cart upsell recommendations</li>
+                        <li><i class="fas fa-check"></i> Manual product selection</li>
+                        <li><i class="fas fa-check"></i> Custom section title</li>
+                        <li><i class="fas fa-check"></i> Theme color customization</li>
+                        <li><i class="fas fa-check"></i> Theme app extension integration</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer (keep your existing footer links structure if you have it) -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <div class="logo-icon">
+                            <span class="logo-letter">G</span>
+                        </div>
+                        <h3 class="footer-title">
+              <span class="logo-text-boostly">Growify</span><span class="logo-text-apps">Apps</span>
+            </h3>
+                    </div>
+                    <p class="footer-description">
+                        Building powerful Shopify applications that help merchants run better stores.
+                    </p>
+                </div>
+
+                <div class="footer-section">
+                    <h4 class="footer-heading">Resources</h4>
+                    <ul class="footer-links">
+                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                        <li><a href="terms-of-service.html">Terms of Service</a></li>
+                        <li><a href="pricing.html">Pricing</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4 class="footer-heading">Support</h4>
+                    <ul class="footer-links">
+                        <li><a href="mailto:support@growifyapps.com">support@growifyapps.com</a></li>
+                        <li><a href="index.html#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>© 2026 Growify Apps. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
+
 </html>
