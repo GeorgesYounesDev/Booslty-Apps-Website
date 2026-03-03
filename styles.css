@@ -1979,59 +1979,5 @@ section {
     }
 }
 
-
-.pricing-section {
-  padding: 80px 0;
-  background: #f9fafb;
-}
-
-.pricing-grid {
-  display: flex;
-  gap: 40px;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.pricing-card {
-  background: white;
-  padding: 40px;
-  border-radius: 12px;
-  width: 320px;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
-  text-align: center;
-}
-
-.pricing-card h2 {
-  margin-bottom: 10px;
-}
-
-.price {
-  font-size: 40px;
-  font-weight: bold;
-  margin: 20px 0 5px;
-}
-
-.billing {
-  color: #666;
-  margin-bottom: 10px;
-}
-
-.trial {
-  color: #22c55e;
-  font-weight: 600;
-  margin-bottom: 20px;
-}
-
-.pricing-card ul {
-  list-style: none;
-  padding: 0;
-  margin-top: 20px;
-}
-
-.pricing-card ul li {
-  margin-bottom: 10px;
-}
-
-.pricing-card.featured {
   border: 2px solid #22c55e;
 }
